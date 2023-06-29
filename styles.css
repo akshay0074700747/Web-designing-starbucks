@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'SoDoSans-SemiBold';
+    src: url('starbucks res/SoDoSans-SemiBold.woff');
+}
+
+@font-face{
+    font-family: 'SoDoSans-Bold';
+    src: url('starbucks res/SoDoSans-Bold.eot');
+}
+
+img{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: filter 0.3s ease-in-out;
+}
+
+button:hover{
+    filter: brightness(0.7);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.topdiv{
+    position: sticky;
+    top: 0;
+    height: 77px;
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    color: #212529;
+    font-weight: 100;
+    z-index: 5;
+    background-color: white;
+}
+
+.topdiv img{
+    margin-left: 69px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin-top: 18px;
+}
+
+.topdivtxt{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 25px;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+
+}
+
+#serchbox{
+    position: relative;
+    margin-left: 130px;
+    margin-top: 15px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+#serchbox input{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 40px;
+  border: 0.1px solid;
+  border-color: azure;
+  border-radius: 20px;
+  width: 275px;
+  background-image: url("starbucks res/search.svg");
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding-right: 24px;
+  font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+}
+
+#topgreenrectangle{
+    background-color: rgb(30,57,50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#topgreenrectangle h3{
+    font-family: SoDoSans-Bold, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 55px;
+    font-weight: lighter;
+}
+
+#topgreenrectangle button{
+    margin-top: 15px;
+    margin-right: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border-color: white;
+}
+
+body{
+    margin: 0;
+}
+
+#handcrafted{
+    margin-top: 30px;
+    margin-left: 65px;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+}
+
+#tophorizondalimgs{
+    position: relative;
+    display: flex;
+}
+
+.img1 img{
+    position: relative;
+    height: 110px;
+    width: 110px;
+    margin-left: 110px;
+    margin-top: 4px;
+    border-radius: 55px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img1 img:hover{
+    transform: scaleZ(-3.5);
+}
+
+.img1 p{
+    position: relative;
+    margin-left: 120px;
+    margin-top: 14px;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+}
+
+#loveatfirstbite{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+#leftswipe{
+    position: absolute;
+    top: 80px;
+    left: -38px;
+    size: 10px;
+    z-index: 4;
+    opacity: 0.3;
+}
+
+#rightswipe{
+    position: absolute;
+    top: 80px;
+    right: 47px;
+    size: 10px;
+    z-index: 4;
+    transform: rotate(180deg);
+}
+
+
+#overlayedimg{
+    height: 225px;
+    width: 1500;
+}
+
+#orangeimg{
+    height: 225px;
+    width: 1280px;
+}
+
+#overlayedtxt h5{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+    line-height: 10px;
+}
+
+#overlayedtxt h2{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+    line-height: 15px;
+}
+
+#overlayedtxt h5{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+}
+
+#startingfrm{
+    font-weight: lighter;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+    line-height: 0px;
+}
+
+#overlayedtxt h4{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+    line-height: 0px;
+}
+
+#overlayedimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50;
+    width: 50;
+}
+
+#overlayedtxt{
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+
+#ordernow{
+    position: absolute;
+    background-color: green;
+    bottom: 20px;
+    right: 250px;
+    height: 50px;
+    width: 175px;
+    border-radius: 25px;
+}
+
+#greycontainer{
+    padding-left: 90px;
+    display: flex;
+    width: 1375px; /* the full width in pixels */
+    height: 350px;
+    background-color: lightgray;
+    position: relative;
+    align-content: center;
+}
+
+#greycontainer h2{
+    font-family: SoDoSans-Bold, Helvetica, sans-serif;
+    position: absolute;
+}
+
+#greycontainer img{
+position: absolute;
+top: 0;
+right: 0;
+height: 75px;
+width: 75px;
+}
+
+#greycontainer a{
+    color: green;
+    font-weight: bold;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+    font-size: small;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+}
+
+.reccommends{
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 29%;
+    background-color: white;
+    box-shadow: 7px;
+    margin-left: 10px;
+    margin-top: 85px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: #d5d3d3 1px solid;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+}
+
+.reccommends h3{
+    position: absolute;
+    font-size: small;
+    top: 30px;
+    left: 120px;
+}
+
+.reccommends h4{
+    position: absolute;
+    font-size: small;
+    top: 105px;
+    left: 25px;
+}
+
+.reccommends h5{
+    position: absolute;
+    font-size: xx-small;
+    color: rgb(119, 118, 118);
+    top: 55px;
+    left: 120px;
+}
+
+.reccommends button{
+    position: absolute;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    top: 105px;
+    left: 280px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 5px;
+}
+
+.recpic{
+    margin-top: 20px;
+    position: relative;
+    left: 25px;
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.vegornon{
+    position: absolute;
+    margin-top: 22px;
+    margin-right: 206px;
+}
+
+#greylargbox{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 50px;
+    background-color: lightgray;
+    width: 100%;
+    height: 500px;
+}
+
+.larggreyimg{
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 360px;
+    align-self: baseline;
+    width: 89%;
+    bottom: 40px;
+    border-radius: 10px;
+    transition: filter 0.3s ease-in-out;
+}
+
+.larggreyimg:hover{
+    filter: brightness(70%);
+}
+
+.transparentlyr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    height: 360px;
+    width: 100%;
+    border-radius: 10px;
+    color: azure;
+}
+
+#artandscience{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.larggreyimg button{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius:20px;
+    transition: filter 0.3s ease-in-out;
+}
+
+.larggreyimg button:hover{
+    filter: brightness(70%);
+}
+
+#worldofcoffee{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-size: 14px;
+    font-weight: 0;
+}
+
+#cofeeculture{
+    width: 90px;
+    height: 20px;
+    background-color: rgb(203, 232, 213);
+    color: green;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: xx-small;
+    border-radius: 4px;
+}
+
+#greylargbox h2{
+    position: absolute;
+    font-weight: 900;
+    top: 40px;
+    left: 80px;
+    line-height: 15px;
+    margin-top: 20px;
+}
+
+#greylargbox h5{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    color: green;
+}
+
+#bottomgreenbox{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    height: 500px;
+    background-color: rgb(5, 50, 5);
+}
+
+#bottomgreenbox img{
+    position: absolute;
+    margin-top: 70px;
+    left: 80px;
+    height: 60px;
+    width: 60px;
+}
+
+#bottomgreenbox .bottomtxt{
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+
+.bottomtxt{
+    margin-right: 110px;
+}
+
+.bottomtxt h3{
+    cursor: pointer;
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;color: white;
+}
+
+.bottomtxt h5{
+    font-family: SoDoSans-SemiBold, Helvetica, sans-serif ;
+    color: white;
+    cursor: pointer;
+}
+
+#socialmedia{
+    display: flex;
+}
+
+#socialmedia img{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    margin-top: 0px;
+    left: 0px;
+    margin-right: 15px;
+}
+
+#bottomgreenbox #ios{
+    position: absolute;
+    top: 40px;
+    margin-left: 1100px;
+    width: 200px;
+}
+
+#bottomgreenbox #android{
+    position: absolute;
+    top: 110px;
+    margin-left: 1100px;
+    width: 200px;
+}
+
+.bottomtxt h5 {
+    transition: filter 0.3s ease-in-out;
+}
+
+.bottomtxt h5:hover{
+    filter: brightness(0.4);
+}
+
+
+
